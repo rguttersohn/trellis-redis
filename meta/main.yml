@@ -1,14 +1,14 @@
 ---
 galaxy_info:
-  author: Jason Barr
+  role_name: trellis_redis
+  author: im_mortal
   description: Install and configure Redis in Trellis as an object cache.
-  company: OnFocus Media
   license: MIT
   min_ansible_version: 2.2
   platforms:
-  - name: Ubuntu
-    versions:
-      - xenial
+    - name: Ubuntu
+      versions:
+        - xenial
   galaxy_tags:
     - roots
     - trellis
