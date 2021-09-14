@@ -6,9 +6,9 @@
     update_cache: true
   notify: Start Redis
 
-- name: Install php-redis
+- name: Install php{{ php_version }}-redis
   apt:
-    pkg: php-redis
+    pkg: php{{ php_version }}-redis
     state: present
     update_cache: true
   notify: Restart php-fpm

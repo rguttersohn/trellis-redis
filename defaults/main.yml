@@ -1,5 +1,4 @@
 # Basic config options
-
 redis_config_path: /etc/redis
 redis_daemonize: 'yes'
 redis_pidfile: /run/redis/redis-server.pid
@@ -27,8 +26,6 @@ redis_maxclients: 10000
 
 # Max memory values
 redis_maxmemory: 128mb
-redis_maxmemory_policy: noeviction
-redis_maxmemory_samples: 3
 
 redis_appendonly: 'no'
 redis_appendfilename: appendonly.aof
