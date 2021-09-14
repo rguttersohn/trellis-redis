@@ -12,7 +12,7 @@ Add the role to the `galaxy.yml` file of Trellis :
 ```yaml
 - name: trellis-redis
   src: im_mortal.trellis_redis
-  version: 0.3.1
+  version: 0.3.2
 ```
 
 Run `ansible-galaxy install -r galaxy.yml` to install the new role.  
