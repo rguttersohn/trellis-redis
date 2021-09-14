@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"ansible.python.activationScript": "ansible/bin/activate"
+	},
+	"extensions": {
+		"recommendations": [
+			"tomaciazek.ansible"
+		]
+	}
+}
