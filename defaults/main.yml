@@ -25,9 +25,7 @@ redis_dir: /var/lib/redis
 redis_maxclients: 10000
 
 # Max memory values
-redis_maxmemory: 2gb
-redis_maxmemory_policy: volatile-ttl
-redis_maxmemory_samples: 5
+redis_maxmemory: 128mb
 
 redis_appendonly: 'no'
 redis_appendfilename: appendonly.aof
